@@ -3,7 +3,7 @@ body {
     background-color: #CDA43C;
 }
 
-h1{
+.d{
     border: 3px solid black;
     background-image: linear-gradient(to right bottom, white, #975C25 , #D27926);
     text-align: center;
@@ -23,10 +23,8 @@ h1{
 }
 
 h2{
-    font-size: 50px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
+    text-align: center;
+    font-size: 30px;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -34,7 +32,15 @@ h2{
 }
 
 main{
+    background-color: #F1AA83;
     border: 3px solid black;
     border-radius: 30px;
-    background-color: #F1AA83;
+}
+
+.l{
+    float: left;
+}
+
+.r{
+    float: left;
 }
